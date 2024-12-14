@@ -1,0 +1,55 @@
+# Ignore le dossier venv
+venv/
+
+# Ignore les fichiers de cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore les fichiers de logs et autres sorties temporaires
+*.log
+*.out
+*.tmp
+
+# Ignore les environnements virtuels créés par pipenv, poetry, etc.
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore les fichiers de configuration spécifiques à l'IDE
+.vscode/
+.idea/
+*.iml
+
+# Ignore les fichiers de tests
+.tox/
+.nox/
+.coverage
+*.cover
+.hypothesis/
+
+# Ignore les fichiers de builds/dist
+build/
+dist/
+.eggs/
+*.egg-info/
+.installed.cfg
+
+# Ignore les résultats de tests unitaires
+htmlcov/
+
+# Ignore les fichiers générés par Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignore les fichiers de dépendances lock
+Pipfile.lock
+poetry.lock
+
+# Ignore les fichiers secrets ou personnalisés
+.env
+.env.*
+
+# Ignore les fichiers de données temporaires
+*.csv
+*.db
+*.sqlite3
+*.h5
